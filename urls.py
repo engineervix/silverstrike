@@ -6,5 +6,5 @@ from django.views.generic import RedirectView  # noqa: F401
 
 urlpatterns = [
     path(settings.ADMIN_URL, admin.site.urls),
-    url(r'', include('silverstrike.urls')),
+    url(r"", include("silverstrike.urls")),
 ]
