@@ -37,10 +37,13 @@ django[argon2,bcrypt]==2.2.28
     # via
     #   -r requirements/base.in
     #   django-allauth
+    #   django-extensions
     #   silverstrike
 django-allauth==0.50.0
     # via silverstrike
 django-environ==0.8.1
+    # via -r requirements/base.in
+django-extensions==3.1.5
     # via -r requirements/base.in
 django-widgets-improved==1.5.0
     # via silverstrike

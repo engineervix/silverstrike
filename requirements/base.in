@@ -5,6 +5,7 @@ django[argon2,bcrypt]
 
 # extras
 django-environ
+django-extensions==3.1.5
 
 # tools
 bpython
