@@ -1,0 +1,15 @@
+# Ignore everything in this directory
+*
+
+## Except the following files:
+
+### 0. this .gitignore file
+!.gitignore
+
+### 1. sample nginx config
+!nginx
+!nginx/nginx_sample.conf
+
+### 2. sample uwsgi config
+!uwsgi
+!uwsgi/uwsgi_sample.ini

@@ -1,5 +1,5 @@
 """
-WSGI config for demo project.
+WSGI config for silverstrike project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

@@ -1,0 +1,20 @@
+# core
+silverstrike
+psycopg2-binary
+django[argon2,bcrypt]
+
+# extras
+django-environ
+
+# dev
+black
+bpython
+django-extensions
+flake8
+isort
+pip-tools
+powerline-status
+
+# production
+python-memcached
+sentry-sdk
