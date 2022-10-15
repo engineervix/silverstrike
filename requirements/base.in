@@ -1,0 +1,13 @@
+# core
+silverstrike
+psycopg2-binary
+django[argon2,bcrypt]
+
+# extras
+django-environ
+
+# tools
+bpython
+
+# other packages
+whitenoise
