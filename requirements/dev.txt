@@ -102,6 +102,8 @@ djangorestframework==3.7.7
     #   -c requirements/base.txt
     #   -r requirements/base.txt
     #   silverstrike
+docopt==0.6.2
+    # via pipreqs
 flake8==5.0.4
     # via -r requirements/dev.in
 greenlet==1.1.2
@@ -114,7 +116,7 @@ idna==3.3
     #   -c requirements/base.txt
     #   -r requirements/base.txt
     #   requests
-isort==5.10.1
+isort[requirements_deprecated_finder]==5.10.1
     # via -r requirements/dev.in
 mccabe==0.7.0
     # via flake8
@@ -131,8 +133,12 @@ pathspec==0.10.1
     # via black
 pep517==0.13.0
     # via build
+pip-api==0.0.30
+    # via isort
 pip-tools==6.9.0
     # via -r requirements/dev.in
+pipreqs==0.4.11
+    # via isort
 platformdirs==2.5.2
     # via black
 powerline-status==2.7
@@ -189,6 +195,7 @@ requests==2.27.1
     #   bpython
     #   django-allauth
     #   requests-oauthlib
+    #   yarg
 requests-oauthlib==1.3.1
     # via
     #   -c requirements/base.txt
@@ -232,6 +239,8 @@ whitenoise==6.2.0
     # via
     #   -c requirements/base.txt
     #   -r requirements/base.txt
+yarg==0.1.9
+    # via pipreqs
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip

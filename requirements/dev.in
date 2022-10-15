@@ -5,6 +5,6 @@
 black
 django-extensions==3.1.5
 flake8
-isort
+isort[requirements_deprecated_finder]
 pip-tools
 powerline-status
