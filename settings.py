@@ -182,7 +182,7 @@ ACCOUNT_ADAPTER = "signupadapter.SignupDisabledAdapter"
 CACHES = {
     "default": {
         "BACKEND": "django.core.cache.backends.memcached.MemcachedCache",
-        "LOCATION": env("MEMCACHED_URL"),  # noqa F405
+        "LOCATION": env("MEMCACHED_URL").split("/")[2],  # noqa F405
     },
 }
 
